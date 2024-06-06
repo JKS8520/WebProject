@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg navbar-dark" th:fragment="bodyHeader">
+    <a class="navbar-brand" href="/">사과</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/itemList/1">Mac</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/itemList/2">iPad</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/itemList/3">iPhone</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/itemList/4">Watch</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/itemList/5">AirPods</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/itemList/6">Accessory</a>
+            </li>
+        </ul>
+        <div class="d-flex">
+            <a href="/cart" class="cart-icon me-4">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+            <a href="/myPage" class="login-icon me-2">
+                <i class="fas fa-user"></i>
+            </a>
+        </div>
+    </div>
+</nav>
